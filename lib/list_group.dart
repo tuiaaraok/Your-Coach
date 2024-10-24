@@ -66,7 +66,7 @@ class _ListGroupState extends State<ListGroup> {
                               ),
                             ),
                           ),
-                          for (int i = 0; i < box.length; i++) ...[
+                          for (int i = box.length - 1; i >= 0; i--) ...[
                             Padding(
                               padding: EdgeInsets.symmetric(vertical: 10.h),
                               child: Container(
