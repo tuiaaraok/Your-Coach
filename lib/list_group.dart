@@ -156,7 +156,7 @@ class _ListGroupState extends State<ListGroup> {
                                             style: TextStyle(
                                                 fontSize: 18.sp,
                                                 color: Colors.black
-                                                    .withOpacity(0.5)),
+                                                    .withValues(alpha: 0.5)),
                                           ),
                                         ))
                                   ],

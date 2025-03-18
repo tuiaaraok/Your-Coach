@@ -114,7 +114,7 @@ class _AddGroupPageState extends State<AddGroupPage> {
                                             borderRadius: BorderRadius.all(
                                                 Radius.circular(10.r)),
                                             color: const Color(0xFF019BBD)
-                                                .withOpacity(0.25)),
+                                                .withValues(alpha: 0.25)),
                                         child: Padding(
                                           padding: EdgeInsets.only(left: 12.w),
                                           child: TextField(
@@ -166,7 +166,8 @@ class _AddGroupPageState extends State<AddGroupPage> {
                                                   color: category == "Free"
                                                       ? const Color(0xFF019BBD)
                                                       : const Color(0xFF019BBD)
-                                                          .withOpacity(0.5)),
+                                                          .withValues(
+                                                              alpha: 0.5)),
                                               child: Center(
                                                   child: Text(
                                                 "Free",
@@ -192,7 +193,8 @@ class _AddGroupPageState extends State<AddGroupPage> {
                                                   color: category == "Paid"
                                                       ? const Color(0xFF019BBD)
                                                       : const Color(0xFF019BBD)
-                                                          .withOpacity(0.5)),
+                                                          .withValues(
+                                                              alpha: 0.5)),
                                               child: Center(
                                                   child: Text(
                                                 "Paid",

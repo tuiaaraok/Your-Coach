@@ -50,7 +50,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
       height: isActive ? 6.0.h : 6.h,
       width: isActive ? 35.w : 20.h,
       decoration: BoxDecoration(
-        color: isActive ? Colors.black : Colors.white.withOpacity(0.5),
+        color: isActive ? Colors.black : Colors.white.withValues(alpha: 0.5),
         borderRadius: const BorderRadius.all(Radius.circular(12)),
       ),
     );
@@ -130,7 +130,8 @@ class _OnboardingPageState extends State<OnboardingPage> {
                   child: Text(
                     "Add students to different groups,\ndivide them in a convenient menu,\nwrite out a training plan for each\ngroup separately",
                     style: TextStyle(
-                        fontSize: 18.sp, color: Colors.white.withOpacity(0.5)),
+                        fontSize: 18.sp,
+                        color: Colors.white.withValues(alpha: 0.5)),
                   )),
               SizedBox(
                 height: 60.h,

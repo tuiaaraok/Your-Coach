@@ -143,7 +143,8 @@ class _AddTraningPageState extends State<AddTraningPage> {
                                                   decoration: BoxDecoration(
                                                     color:
                                                         const Color(0xFF019BBD)
-                                                            .withOpacity(0.25),
+                                                            .withValues(
+                                                                alpha: 0.25),
                                                     border: Border.all(
                                                         color: const Color(
                                                             0xFF019BBD),
@@ -220,8 +221,8 @@ class _AddTraningPageState extends State<AddTraningPage> {
                                                         decoration:
                                                             BoxDecoration(
                                                           color: Colors.black
-                                                              .withOpacity(
-                                                                  0.25),
+                                                              .withValues(
+                                                                  alpha: 0.25),
                                                           borderRadius:
                                                               BorderRadius.all(
                                                                   Radius
@@ -270,8 +271,8 @@ class _AddTraningPageState extends State<AddTraningPage> {
                                                                           12.r)),
                                                           color: const Color(
                                                                   0xFF019BBD)
-                                                              .withOpacity(
-                                                                  0.25),
+                                                              .withValues(
+                                                                  alpha: 0.25),
                                                         ),
                                                         child: Padding(
                                                           padding: EdgeInsets
@@ -307,8 +308,9 @@ class _AddTraningPageState extends State<AddTraningPage> {
                                                                         .bold,
                                                                 color: Colors
                                                                     .black
-                                                                    .withOpacity(
-                                                                        0.5),
+                                                                    .withValues(
+                                                                        alpha:
+                                                                            0.5),
                                                                 fontSize: 18.sp,
                                                               ),
                                                             ),
@@ -569,7 +571,8 @@ class _AddTraningPageState extends State<AddTraningPage> {
                                                                   12.r)),
                                                       color: const Color(
                                                               0xFF019BBD)
-                                                          .withOpacity(0.25),
+                                                          .withValues(
+                                                              alpha: 0.25),
                                                     ),
                                                     child: Padding(
                                                       padding:
@@ -601,8 +604,8 @@ class _AddTraningPageState extends State<AddTraningPage> {
                                                             fontWeight:
                                                                 FontWeight.bold,
                                                             color: Colors.black
-                                                                .withOpacity(
-                                                                    0.5),
+                                                                .withValues(
+                                                                    alpha: 0.5),
                                                             fontSize: 18.sp,
                                                           ),
                                                         ),
@@ -830,8 +833,9 @@ class _AddTraningPageState extends State<AddTraningPage> {
                                                                         12.sp,
                                                                     color: Colors
                                                                         .black
-                                                                        .withOpacity(
-                                                                            0.5)),
+                                                                        .withValues(
+                                                                            alpha:
+                                                                                0.5)),
                                                               )
                                                             ],
                                                           ),
@@ -889,7 +893,7 @@ class _AddTraningPageState extends State<AddTraningPage> {
                                               style: TextStyle(
                                                   fontSize: 18.sp,
                                                   color: Colors.black
-                                                      .withOpacity(0.5)),
+                                                      .withValues(alpha: 0.5)),
                                             ),
                                           ))
                                     ],

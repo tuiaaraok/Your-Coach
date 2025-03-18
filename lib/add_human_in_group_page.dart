@@ -159,7 +159,8 @@ class _AddHumanInGroupPageState extends State<AddHumanInGroupPage> {
                                                       "Came to practice?",
                                                       style: TextStyle(
                                                           color: Colors.black
-                                                              .withOpacity(0.5),
+                                                              .withValues(
+                                                                  alpha: 0.5),
                                                           fontSize: 8.sp),
                                                     )),
                                                 for (int j = 0;
@@ -188,8 +189,9 @@ class _AddHumanInGroupPageState extends State<AddHumanInGroupPage> {
                                                                           .r)),
                                                               color: const Color(
                                                                       0xFF019BBD)
-                                                                  .withOpacity(
-                                                                      0.25)),
+                                                                  .withValues(
+                                                                      alpha:
+                                                                          0.25)),
                                                           child: Padding(
                                                             padding:
                                                                 EdgeInsets.only(
@@ -453,7 +455,8 @@ class _AddHumanInGroupPageState extends State<AddHumanInGroupPage> {
                                                 style: TextStyle(
                                                     fontSize: 18.sp,
                                                     color: Colors.black
-                                                        .withOpacity(0.5)),
+                                                        .withValues(
+                                                            alpha: 0.5)),
                                               ),
                                             ))
                                       ],
